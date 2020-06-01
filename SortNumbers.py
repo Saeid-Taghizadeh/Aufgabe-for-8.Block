@@ -2,12 +2,12 @@ num = int(input("How many figures : "))
 storage = []
 result = []
 
-# Creating an array of users numbers
+# Erstellen eines Arrays von Benutzernummern
 for i in range(1,num+1):
     a = int(input("Enter value" + str(i) + " : "))
     storage.append(a) # user enter
 
-# Sorting the array
+# Array sortieren
 for m in range(len(storage)):
     b = min(storage)
     storage.remove(b)
